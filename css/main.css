@@ -40,6 +40,7 @@ ul {
  .mobile-menu-1{
      margin: 0;
      padding: 0;
+     font-size: 0.8em;
  }
 
  .centered {
@@ -49,6 +50,7 @@ ul {
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-size: 2cm;
+    text-align: center;
   }
 
 .Navbar .container{
@@ -74,7 +76,7 @@ ul {
     margin: 0;
     background-color: #f2f2f2;
     padding: 1em;
-    height: 100px;
+    
 }
 
 .third-nav{
@@ -99,6 +101,7 @@ ul {
 
 
 
+
 .cards {
     margin: 0 auto;
     max-width: 1000px;
@@ -113,6 +116,7 @@ ul {
 .cards * {
     
     box-sizing: border-box;
+    
 }
 
 .card__image {
@@ -131,6 +135,14 @@ ul {
    
 }
 
+.link{
+    font-weight: bold;
+    color: blue;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
 .card__content > p:first-of-type {
     margin-top: 0;
 }
@@ -166,8 +178,16 @@ ul {
     box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
   }
   .card {
-  ...
+
     transition: 0.5s ease;
     cursor: pointer;
     margin:30px;
   }
+
+  .Subheading{
+      font-size: 2em;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  
