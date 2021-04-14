@@ -123,6 +123,7 @@ a:hover{
 }
 
 .sidebar{
+    float: left;
     padding-top: 7px;
     padding-bottom: 113px;
     padding-left: 30px;
@@ -130,4 +131,16 @@ a:hover{
     width: 12.5%;
     height:380px;
     border-right: 2px solid black;
+}
+
+.content{
+    width: 87.5%;
+    height: 436px;
+    text-indent: 30px;
+}
+
+.fol{
+    padding-left: 30px;
+    font-weight: bold;
+    color: blue;
 }

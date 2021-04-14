@@ -95,26 +95,52 @@ a:hover{
 .p1{
     text-indent: 10px;
     line-height: 1.8;
+    padding-left: 15px;
 }
 
 .p2{
-    text-indent: 20px;
+    text-indent: 25px;
 }
 
 .p3{
-    text-indent: 30px;
+    text-indent: 45px;
 }
 
 .p4{
-    text-indent: 30px;
+    text-indent: 45px;
+}
+
+.p5{
+    text-indent: 25px;
+}
+
+.p6{
+    text-indent: 45px;
+}
+
+.p7{
+    text-indent: 45px;
 }
 
 .sidebar{
-    padding-top: 100px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 113px;
+    padding-left: 30px;
     background: #f2f2f2;
-    width: 10%;
+    width: 12.5%;
     height:380px;
     border-right: 2px solid black;
+}
+
+.content{
+    width: 87.5%;
+    height: 436px;
+    text-indent: 30px;
+}
+
+.fol{
+    padding-left: 30px;
+    font-weight: bold;
+    color: blue;
 }
